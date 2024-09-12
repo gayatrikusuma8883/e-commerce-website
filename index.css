@@ -1,0 +1,582 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.food-munch-logo {
+    width: 90px;
+    height: 80px;
+    border-radius: 48%;
+}
+
+#navItem1 {
+    color: #323f4b;
+    font-family: "Roboto";
+}
+
+#navItem2 {
+    color: #323f4b;
+    font-family: "Roboto";
+}
+
+#navItem3 {
+    color: #323f4b;
+    font-family: "Roboto";
+}
+
+#navItem4 {
+    color: #323f4b;
+    font-family: "Roboto";
+}
+
+#navItem5 {
+    color: #323f4b;
+    font-family: "Roboto";
+}
+
+.banner-section-bg-container {
+    background-image: linear-gradient(to right, #eae3e6, #e4d3db);
+    padding-bottom: 30px;
+}
+
+.banner-heading {
+    color: #C70039;
+    font-family: "Lobster";
+    font-size: 6vw;
+    font-weight: 500;
+    padding: 20px;
+    font-style: oblique;
+    margin: 0;
+    background-image: url("https://res.cloudinary.com/duvzumtzm/image/upload/v1725464873/Tandoori-Chicken-20_uuasey.jpg");
+    background-clip: text;
+    -webkit-background-clip: transparent;
+    color: transparent;
+    background-size: cover;
+}
+
+.banner-caption {
+    color: #000;
+    font-family: "Bree Serif";
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.custom-button {
+    color: blue;
+    width: 98px;
+    height: 30px;
+    background-color: cyan;
+    border-radius: 8px;
+    margin-right: 20px;
+    font-size: 12px;
+    border: blue 2px solid;
+    font-weight: 500;
+    box-shadow: 0 0 5px cyan, 0 0 25px cyan;
+}
+
+.custom-button:hover {
+    color: #fff;
+    background-image: linear-gradient(to bottom right, cyan, blue, cyan);
+    box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50px cyan, 0 0 100px cyan, 0 0 200px cyan;
+    transform: scale(1.1);
+}
+
+.custom-outline-button {
+    color: #fbfe85;
+    font-weight: 500;
+    width: 98px;
+    height: 30px;
+    border-radius: 8px;
+    font-size: 12px;
+    background-color: #ff1300;
+    border: 1px solid #fbfe85;
+    box-shadow: 0 0 5px #ff1300, 0 0 25px #ff1300;
+}
+
+.custom-outline-button:hover {
+    background-image: linear-gradient(to bottom right, #ffe804, #ff1300, #ffe804);
+    color: #fff;
+    box-shadow: 0 0 5px #ff1300, 0 0 25px #ff1300, 0 0 50px #ff1300, 0 0 100px #ff1300, 0 0 200px #ff1300;
+    transform: scale(1.1);
+}
+
+.wss-section {
+    background-image: url("https://res.cloudinary.com/duvzumtzm/image/upload/v1725635109/715683_x1gpdr.jpg");
+    background-size: cover;
+}
+
+.wss-section-heading {
+    color: #fff;
+    font-family: "Lobster";
+    font-size: 34px;
+    font-weight: 800;
+    text-align: center;
+    text-shadow: 2px 2px 8px #000000;
+}
+
+.wss-section-description {
+    color: #fff;
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.wss-card {
+    background-color: transparent;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e5eaf4;
+    border-radius: 16px;
+    backdrop-filter: blur(6px);
+    color: #fff;
+    min-height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.wss-card:hover {
+    background-color: #fff;
+    color: #000;
+    opacity: 0.8;
+    transform: scale(1.1);
+}
+
+.wss-card-image {
+    width: 67px;
+    height: 70px;
+}
+
+.wss-card-title {
+    font-family: "Bree Serif";
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.wss-card-description {
+    font-family: "Roboto";
+    font-size: 14px;
+}
+
+.cuisine-varieties-section {
+    background-color: #e2fdf6;
+}
+
+.cuisine-section-heading {
+    color: #f41663;
+    font-family: "Lobster";
+    font-size: 34px;
+    font-weight: 800;
+    text-shadow: 2px 2px 8px #000000;
+}
+
+.cuisine-section-description {
+    color: #000;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.cuisine-item-image {
+    border-radius: 16px;
+    object-fit: cover;
+    transition: transform .4s ease-in;
+}
+
+.cuisine-card-title {
+    color: #be253a;
+    font-family: "Bree Serif";
+    font-size: 22px;
+    font-weight: 700;
+    margin-top: 24px;
+}
+
+.cuisine-item-link {
+    color: #7c25be;
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.cuisine-item-card {
+    border-radius: 16px;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.cuisine-item-card:hover .cuisine-item-image {
+    transform: scale(1.1);
+}
+
+.catering-services-section {
+    background-image: linear-gradient(to bottom, #fbbce0, #f1c2df, #ffeaf7);
+}
+
+.catering-section-heading {
+    font-family: "Lobster";
+    font-size: 34px;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 12px;
+    color: #282873;
+    text-shadow: 2px 2px 8px #fff;
+}
+
+.catering-section-description {
+    color: #3e3e50;
+    font-family: "Roboto";
+    font-size: 14px;
+}
+
+.watch-video {
+    display: flex;
+    color: #2b3113;
+    width: 128px;
+    height: 38px;
+    background-color: #e7ff97;
+    border-radius: 8px;
+    margin-right: 20px;
+    font-size: 12px;
+    border: #5e0707 2px solid;
+    font-weight: 500;
+    box-shadow: 0 0 5px #e7ff97, 0 0 25px #e7ff97;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+    transition: transform .4s ease-in;
+}
+
+.watch-video:hover {
+    color: #fff;
+    background-image: linear-gradient(to bottom right, #e7ff97, #2b3113, #e7ff97);
+    box-shadow: 0 0 5px #e7ff97, 0 0 25px #e7ff97, 0 0 50px #e7ff97, 0 0 100px #e7ff97, 0 0 200px #e7ff97;
+    transform: scale(1.1);
+}
+
+.catering-section-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.grab-and-go-section {
+    background-image: url("https://res.cloudinary.com/duvzumtzm/image/upload/v1725642937/hands-credit-card-payment-terminal-restaurant-food-delivery-pay-203775130_ljwezl.jpg");
+    background-size: cover;
+
+}
+
+.grab-and-go-card {
+    background-color: #eeeeee;
+    border-radius: 18px;
+    border: 2px solid black;
+}
+
+.grab-and-go-section-heading {
+    font-family: "Lobster";
+    font-size: 34px;
+    font-weight: 600;
+    text-align: center;
+    color: #B6342B3;
+    text-shadow: 2px 2px 8px red;
+}
+
+.grab-and-go-section-description {
+    color: #5a7184;
+    font-family: "Roboto";
+    font-size: 16px;
+}
+
+.grab-and-go-options-images-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.grab-and-go-options-heading {
+    font-size: 22px;
+    font-family: "Bree Serif";
+    text-align: center;
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+
+.thanking-customers-section {
+    background-color: #d0b2001a;
+}
+
+.thanking-customers-section-heading-rewards {
+    font-family: "Lobster";
+    font-size: 34px;
+    font-weight: 600;
+    text-align: center;
+    color: red;
+    text-shadow: 2px 2px 8px #183b56;
+}
+
+.thanking-customers-section-heading {
+    color: #033770;
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.thanking-customers-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.thanking-customers-section-img {
+    width: 270px;
+    margin-bottom: 20px;
+    filter: drop-shadow(16px 7px 8px #DA356C);
+}
+
+.span {
+    font-style: italic;
+    font-size: 18px;
+}
+
+.redeem-gift {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.follow-us-section {
+    background-image: radial-gradient(#faf7e8, #183b56);
+}
+
+.follow-us-section-heading {
+    text-align: center;
+    color: #183b56;
+    font-family: "Lobster";
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.follow-us-icon-container {
+    background-color: #fff;
+    width: 68px;
+    height: 68px;
+    border-radius: 40px;
+    margin: 15px;
+    padding-top: 22px;
+    padding-bottom: 14px;
+    padding-right: 16px;
+    padding-left: 22px;
+}
+
+.icon {
+    color: #000;
+    font-size: 28px;
+}
+
+.footer-section {
+    background-image: url("https://res.cloudinary.com/duvzumtzm/image/upload/v1725643015/fried-chicken-recipe-generative-ai_922357-6668_tdd0yd.jpg");
+    background-size: cover;
+}
+
+.footer-section-container {
+    background: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(5px);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    align-items: center;
+    font-family: "Roboto";
+
+}
+
+.footer-section-mail-id {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.footer-section-address {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+@media screen and (min-width:768px) {
+    .banner-heading {
+        font-size: 44px;
+    }
+
+    .banner-caption {
+        font-size: 22px;
+    }
+
+    .custom-button {
+        height: 32px;
+        width: 108px;
+        border-radius: 12px;
+        margin-right: 28px;
+        font-size: 16px;
+    }
+
+    .custom-outline-button {
+        width: 108px;
+        height: 32px;
+        border-radius: 12px;
+        font-size: 16px;
+    }
+
+    .wss-card-image {
+        width: 77px;
+        height: 80px;
+    }
+
+    .wss-section-heading {
+        font-size: 38px;
+    }
+
+    .wss-section-description {
+        font-size: 18px;
+    }
+
+    .wss-card-title {
+        font-size: 24px;
+    }
+
+    .cuisine-varieties-section {
+        background-color: #ff7c7c;
+    }
+
+    .cuisine-section-heading {
+        font-size: 38px;
+        color: #fcff01;
+    }
+
+    .cuisine-section-description {
+        color: #fff;
+        font-size: 16px;
+    }
+
+    .cuisine-item-card:hover .cuisine-item-image {
+        transform: scale(1.2);
+    }
+
+    .catering-section-heading {
+        font-size: 38px;
+    }
+
+    .follow-us-section-heading {
+        font-size: 38px;
+    }
+
+    .follow-us-icon-container {
+        width: 78px;
+        height: 78px;
+    }
+
+    .icon {
+        font-size: 34px;
+    }
+
+    .footer-section-mail-id {
+        margin-top: 20px;
+        font-size: 22px;
+        font-weight: bold;
+    }
+
+    .footer-section-address {
+        font-size: 18px;
+        font-weight: bold;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .banner-heading {
+        font-size: 54px;
+    }
+
+    .banner-caption {
+        font-size: 26px;
+    }
+
+    .custom-button {
+        font-size: 18px;
+        width: 118px;
+        height: 38px;
+    }
+
+    .custom-outline-button {
+        font-size: 18px;
+        width: 118px;
+        height: 38px;
+
+    }
+
+    .wcu-card-image {
+        width: 87px;
+        height: 90px;
+    }
+
+    .wss-section-heading {
+        font-size: 42px;
+    }
+
+    .wss-section-description {
+        font-size: 22px;
+    }
+
+    .wss-card-title {
+        font-size: 26px;
+    }
+
+    .cuisine-varieties-section {
+        background-color: #ffff7c;
+    }
+
+    .cuisine-section-heading {
+        font-size: 42px;
+        color: #ff7c7c;
+    }
+
+    .cuisine-section-description {
+        color: #000;
+        font-size: 18px;
+    }
+
+    .catering-section-heading {
+        font-size: 42px;
+    }
+
+    .follow-us-section-heading {
+        font-size: 46px;
+    }
+
+    .follow-us-icon-container {
+        width: 78px;
+        height: 78px;
+    }
+
+    .icon {
+        font-size: 38px;
+    }
+
+    .menu-section-heading {
+        font-size: 46px;
+        color: blue;
+    }
+
+    .menu-section-description {
+        font-size: 20px;
+        color: #000;
+    }
+
+    .menu-item-card:hover .menu-item-image {
+        padding-bottom: 14px;
+        transform: scale(1.3);
+    }
+
+
+}
